@@ -96,6 +96,10 @@ p:not(:last-of-type),
   margin-bottom: 6rem;
 }
 
+.navbar_mobile{
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 60%;
@@ -128,10 +132,17 @@ p:not(:last-of-type),
   h1 {
     font-size: 4.2rem;
   }
-
+  .btn.btn-primary {
+  padding: 15px;
+  }
   .header__right img{
     display: none;
   }
+
+  .navbar__links{
+    display: none;
+  }
+
 }
 
 #conhecimentos{

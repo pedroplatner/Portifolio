@@ -79,14 +79,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   sr.reveal('.skill', {
     origin: 'left',
-    delay: 800,
-    viewFactor: 0.5,
+    delay: 500,
+    viewFactor: 0.2,
 });
 
   sr.reveal('.project', {
     origin: 'right',
     delay: 400,
-    viewFactor: 0.5,
+    viewFactor: 0.2,
   });
 });
 

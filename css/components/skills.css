@@ -1,0 +1,28 @@
+.skill{
+    background-color: var(--light-tertiary-color);
+    scroll-margin-top: 10rem;
+}
+
+.skill .skills__content{
+    padding: 6rem 4rem;
+    text-align: center;
+}
+
+.skill .skills__content .description{
+    max-width: 56rem;
+    margin: 0 auto 2rem;
+}
+
+.skill .skills__content ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.skill .skills__content ul li{
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, #faf5ff, rgb(177, 0, 177));
+    border-image-slice: 1;
+}
+
+

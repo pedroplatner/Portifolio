@@ -1,0 +1,28 @@
+.project{
+    background-color: var(--light-tertiary-color);
+    scroll-margin-top: 10rem;
+}
+
+.project .project__content{
+    padding: 6rem 4rem;
+    text-align: center;
+}
+
+.project .project__content .description{
+    max-width: 56rem;
+    margin: 0 auto 2rem;
+}
+
+.project .project__content ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.project .project__content ul li{
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgb(177, 0, 177), #faf5ff);
+    border-image-slice: 1;  
+    height: 200px;
+
+}
